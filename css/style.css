@@ -1,3 +1,7 @@
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -12,9 +16,23 @@
     }
   }
 header h4{
-    margin: 0;
-    color: DimGray;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: Lightgray;
+  letter-spacing: 1px;
 }
 #bremerOnline{
     text-decoration: none;
+}
+footer .text-muted{
+  font-size: 0.8em;
+}
+footer .container-sm{
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Expletus Sans', cursive;
+  font-weight: 700;
+  letter-spacing: 1.8px;
 }
