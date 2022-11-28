@@ -25,8 +25,13 @@ header h4{
 #bremerOnline{
     text-decoration: none;
 }
+footer .row{
+  min-height: 200px;
+}
 footer .text-muted{
-  font-size: 0.8em;
+  font-size: 1em;
+  color: Lightgray !important;
+  font-weight: 400;
 }
 footer .container-sm{
   text-align: center;
@@ -36,8 +41,26 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1.8px;
 }
+.card,.card-img-top{
+  border-radius: 0;
+}
+.card-text{ 
+  font-weight: 400;
+}
 .card-img-top {
   min-height: 25vw;
   object-fit: cover;
   overflow: hidden;
+}
+#vader{
+  background-color: gold;
+  color: darkgoldenrod;
+}
+#tony{
+  background-color: silver;
+  color: DimGray;
+}
+#trinity{
+  background-color: #CD7F32; /*bronze */
+  color: Black;
 }

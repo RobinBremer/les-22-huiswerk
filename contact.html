@@ -11,7 +11,7 @@
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,700;1,700&family=Lato:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,700;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <title>Bremer Online – Contact</title>
 </head>
 <body class="d-flex flex-column h-100">
@@ -45,15 +45,39 @@
       <!--Content-->
       <main class="flex-shrink-0">
         <div class="container-sm">
+          <div class="row">
+            <div class="col-sm-6 offset-sm-3">
           <h1 class="mt-5">Stuur me een bericht</h1>
-          <p class="lead">Bla bla </p>
+          <form class="my-3" action="https://formspree.io/f/xpznegra" method="post">
+          <div class="mb-3">
+            <label for="berichtNaam" class="form-label">Naam</label>
+            <input name="Naam" type="text" class="form-control" id="berichtNaam" placeholder="Darth Vader">
+          </div>
+          <div class="mb-3">
+            <label for="berichtEmail" class="form-label">Emailadres</label>
+            <input name="Email" type="email" class="form-control" id="berichtEmail" placeholder="darth_vader@deathstarweb.com">
+          </div>
+          <div class="mb-3">
+            <label for="berichtText" class="form-label">Bericht:</label>
+            <textarea name="Bericht" class="form-control" id="berichtText" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Stuur</button>
+        </form>
+        </form>
+            </div>
+          </div>
         </div>
       </main>
-      <footer class="footer mt-auto py-3 bg-light">
-        <div class="container-sm">
+  <!--footer-->
+  <footer class="footer mt-auto bg-light">
+    <div class="container-sm justify-content-center">
+      <div class="row">
+        <div class="col align-self-center">
           <span class="text-muted">© Robin Bremer 2022</span>
         </div>
-      </footer>
+      </div>
+    </div>
+  </footer>
     <!--BS JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
